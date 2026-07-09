@@ -151,7 +151,7 @@
       <div class="code-wrap mb-6">
         <button class="copy-btn" data-target="curl-auth">Copy</button>
         <pre id="curl-auth" class="line-numbers language-bash"><code># Bash / cURL example
-curl -X GET "http://api.rhnx.xyz/api/profile?apikeykey=YOUR_API_KEY" \
+curl -X GET "http://api./api/profile?apikeykey=YOUR_API_KEY" \
   -H "x-api-key: YOUR_API_KEY"</code></pre>
       </div>
 
@@ -160,7 +160,7 @@ curl -X GET "http://api.rhnx.xyz/api/profile?apikeykey=YOUR_API_KEY" \
         <pre id="js-auth" class="line-numbers language-javascript"><code>
 const fetch = require('node-fetch');
 (async () => {
-  const res = await fetch('http://api.rhnx.xyz/api/aitester?key=YOUR_API_KEY', {
+  const res = await fetch('http://api-tan-one-18.vercel.app/api/aitester?key=YOUR_API_KEY', {
     headers: { 'x-api-key': 'YOUR_API_KEY' }
   });
   const data = await res.json();
@@ -176,7 +176,7 @@ const fetch = require('node-fetch');
       <div class="code-wrap">
         <button class="copy-btn" data-target="base-url">Copy</button>
         <pre id="base-url" class="line-numbers language-json"><code>{
-  "base_url": "https://api.rhnx.xyz/api/"
+  "base_url": "https://api-tan-one-18.vercel.app/api/"
 }</code></pre>
       </div>
     </section>
@@ -190,7 +190,7 @@ const fetch = require('node-fetch');
 
         <div class="code-wrap mb-3">
           <button class="copy-btn" data-target="req-get-users">Copy</button>
-          <pre id="req-get-users" class="line-numbers language-bash"><code>curl -X GET "http://api.rhnx.xyz/profile?key=YOUR_API_KEY" \
+          <pre id="req-get-users" class="line-numbers language-bash"><code>curl -X GET "http://api-tan-one-18.vercel.app/profile?key=YOUR_API_KEY" \
   -H "x-api-key: YOUR_API_KEY"<code></pre>
         </div>
 
@@ -198,12 +198,12 @@ const fetch = require('node-fetch');
           <button class="copy-btn" data-target="res-get-users">Copy</button>
           <pre id="res-get-users" class="line-numbers language-json"><code>
 {
-  "creator": "Raihan Fadillah",
+  "creator": "Mas Yuu",
   "success": true,
   "data": {
     "id": "usr_FtWRqxdM",
-    "name": "Servis Rangelofficial",
-    "username": "servisrangelofficial",
+    "name": "Servis Yuki Center",
+    "username": "servisyukicenter",
     "email": "youremail@gmail.com",
     "lastLogin": "2026-01-23 19:08:03",
     "createdAt": "2026-01-05 23:14:27"
@@ -241,7 +241,7 @@ const fetch = require('node-fetch');
     <div class="code-wrap mb-3">
       <button class="copy-btn" data-target="req-free-endpoint">Copy</button>
       <pre id="req-free-endpoint" class="line-numbers language-bash"><code>
-curl -X GET "http://api.rhnx.xyz/profile"
+curl -X GET "http://api-tan-one-18.vercel.app/profile"
 </code></pre>
     </div>
 
@@ -249,12 +249,12 @@ curl -X GET "http://api.rhnx.xyz/profile"
       <button class="copy-btn" data-target="res-free-endpoint">Copy</button>
       <pre id="res-free-endpoint" class="line-numbers language-json"><code>
 {
-  "creator": "Raihan Fadillah",
+  "creator": "Mas Yuu",
   "success": true,
   "data": {
     "id": "usr_FtWRqxdM",
-    "name": "Servis Rangelofficial",
-    "username": "servisrangelofficial",
+    "name": "Servis Yuki Center",
+    "username": "servisyukicenter",
     "email": "youremail@gmail.com",
     "lastLogin": "2026-01-23 19:08:03",
     "createdAt": "2026-01-05 23:14:27"
@@ -291,7 +291,7 @@ curl -X GET "http://api.rhnx.xyz/profile"
     <h3 class="text-lg font-semibold mb-2">API Key diperlukan</h3>
     <button class="copy-btn" data-target="err-required">Copy</button>
     <pre id="err-required" class="line-numbers language-json"><code>{
-  "creator": "Raihan Fadillah",
+  "creator": "Mas Yuu",
   "status": false,
   "info": {
     "message": "API Key Diperlukan silakan Login terlebih dahulu"
@@ -303,7 +303,7 @@ curl -X GET "http://api.rhnx.xyz/profile"
     <h3 class="text-lg font-semibold mb-2">API Key tidak valid</h3>
     <button class="copy-btn" data-target="err-invalid">Copy</button>
     <pre id="err-invalid" class="line-numbers language-json"><code>{
-  "creator": "Raihan Fadillah",
+  "creator": "Mas Yuu",
   "status": false,
   "info": {
     "message": "Invalid API Key"
@@ -315,7 +315,7 @@ curl -X GET "http://api.rhnx.xyz/profile"
     <h3 class="text-lg font-semibold mb-2">Hanya owner yang dapat mengakses endpoint ini</h3>
     <button class="copy-btn" data-target="err-owner">Copy</button>
     <pre id="err-owner" class="line-numbers language-json"><code>{
-  "creator": "Raihan Fadillah",
+  "creator": "Mas Yuu",
   "status": false,
  "info": {
     "message": "Fitur Husus Owner "
@@ -327,7 +327,7 @@ curl -X GET "http://api.rhnx.xyz/profile"
     <h3 class="text-lg font-semibold mb-2">Fitur ini hanya untuk user premium</h3>
     <button class="copy-btn" data-target="err-premium">Copy</button>
     <pre id="err-premium" class="line-numbers language-json"><code>{
-  "creator": "Raihan Fadillah",
+  "creator": "Mas Yuu",
   "status": false,
   "info": {
     "message": "Fitur Husus user premium"
@@ -339,7 +339,7 @@ curl -X GET "http://api.rhnx.xyz/profile"
     <h3 class="text-lg font-semibold mb-2">Batas penggunaan habis</h3>
     <button class="copy-btn" data-target="err-limit">Copy</button>
     <pre id="err-limit" class="line-numbers language-json"><code>{
-  "creator": "Raihan Fadillah",
+  "creator": "Mas Yuu",
   "status": false,
   "info": {
     "message": "Batas penggunaan habis",
@@ -358,23 +358,23 @@ curl -X GET "http://api.rhnx.xyz/profile"
   <ul class="space-y-2 text-sm text-gray-700 dark:text-gray-300">
     <li class="flex items-center gap-2">
       <i class="fa-brands fa-youtube text-red-600"></i>
-      <a href="https://www.youtube.com/@rhnxofficial" target="_blank" class="hover:underline">YouTube</a>
+      <a href="https://www.youtube.com/@ryuizumi_id" target="_blank" class="hover:underline">YouTube</a>
     </li>
     <li class="flex items-center gap-2">
       <i class="fa-brands fa-tiktok text-gray-900 dark:text-white"></i>
-      <a href="https://www.tiktok.com/@rhnxofficial" target="_blank" class="hover:underline">TikTok</a>
+      <a href="https://www.tiktok.com/@dlanxyz56" target="_blank" class="hover:underline">TikTok</a>
     </li>
     <li class="flex items-center gap-2">
       <i class="fa-brands fa-instagram text-pink-500"></i>
-      <a href="https://www.instagram.com/rhnxofficial" target="_blank" class="hover:underline">Instagram</a>
+      <a href="https://www.instagram.com/itsme_yuu65" target="_blank" class="hover:underline">Instagram</a>
     </li>
     <li class="flex items-center gap-2">
       <i class="fa-brands fa-whatsapp text-green-500"></i>
-      <a href="https://chat.whatsapp.com/EcaZKuqXYGk8DL35OUCetp" target="_blank" class="hover:underline">WhatsApp</a>
+      <a href="https://chat.whatsapp.com/JM9HGEpAxKw8J4tJtmFkA3" target="_blank" class="hover:underline">WhatsApp</a>
     </li>
     <li class="flex items-center gap-2">
       <i class="fa-solid fa-bullhorn text-blue-500"></i>
-      <a href="https://whatsapp.com/channel/0029VaAyQPOAjPXPIzpWKX3K" target="_blank" class="hover:underline">Saluran</a>
+      <a href="https://whatsapp.com/channel/0029VbCn2LKFy72KAD7Yd002" target="_blank" class="hover:underline">Saluran</a>
     </li>
   </ul>
 
