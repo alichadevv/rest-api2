@@ -234,7 +234,7 @@ export default {
               {
                 status: true,
 
-                creator: "Raihan Fadillah",
+                creator: "Mas Yuu",
                 result: {
                   url: upload.url,
                   expired: "1 menit",
