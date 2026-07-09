@@ -95,7 +95,7 @@ export default {
     res.end(
       JSON.stringify({
         status: true,
-        creator: "Raihan Fadillah",
+        creator: "Mas Yuu",
         message: "Daftar bulan Hijriah berhasil diambil",
         total: hijriMonths.length,
         hijri_months: hijriMonths,
