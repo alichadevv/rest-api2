@@ -74,7 +74,7 @@ ${passages}
       res.writeHead(200, { "Content-Type": "application/json" });
       res.end(JSON.stringify({
         status: true,
-        creator: "Raihan Fadillah",
+        creator: "Mas Yuu",
         data: {
           query: text,
           result: answer.data,

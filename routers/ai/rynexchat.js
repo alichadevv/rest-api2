@@ -80,7 +80,7 @@ export default {
         return res.end(
           JSON.stringify({
             status: true,
-            creator: "Raihan Fadillah",
+            creator: "Mas Yuu",
             time: now,
             data: {
               query: text,
@@ -149,7 +149,7 @@ ${userPrompt ? `Instruksi tambahan dari user: ${userPrompt}` : ""}
         JSON.stringify(
           {
             status: true,
-            creator: "Raihan Fadillah",
+            creator: "Mas Yuu",
             time: now,
             data: {
               query: text,

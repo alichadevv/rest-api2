@@ -72,7 +72,7 @@ export default {
         JSON.stringify(
           {
             status: true,
-            creator: "Raihan Fadillah",
+            creator: "Mas Yuuu",
             data: {
               question,
               answer: response.data.content,
