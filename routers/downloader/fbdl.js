@@ -129,7 +129,7 @@ export default {
           {
             status: result.length > 0,
 
-            creator: "Raihan Fadillah",
+            creator: "Mas Yuu",
 
             result: {
               title,

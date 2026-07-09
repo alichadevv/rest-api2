@@ -106,7 +106,7 @@ export default {
         JSON.stringify(
           {
             status: true,
-            creator: "Raihan Fadillah",
+            creator: "Mas Yuu",
             query,
             total: results.length,
             videos: results,

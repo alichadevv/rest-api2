@@ -219,7 +219,7 @@ export default {
         JSON.stringify(
           {
             status: true,
-            creator: "Raihan Fadillah",
+            creator: "Mas Yuu",
 
             result: {
               input: url,

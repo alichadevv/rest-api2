@@ -80,7 +80,7 @@ access: {
         JSON.stringify(
           {
             status: true,
-            creator: 'Raihan Fadillah',
+            creator: 'Mas Yuu',
             total: results.length,
             results,
           },

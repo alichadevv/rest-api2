@@ -71,7 +71,7 @@ export default {
         JSON.stringify(
           {
             status: true,
-            creator: "Raihan Fadillah",
+            creator: "Mas Yuu",
             data: {
               id: data.video_id,
               type,

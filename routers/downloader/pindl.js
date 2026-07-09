@@ -129,7 +129,7 @@ export default {
         JSON.stringify(
           {
            status: true,
-            creator: "Raihan Fadillah",
+            creator: "Mas Yuu",
             data: {
               type: result.type,
               title: result.title,

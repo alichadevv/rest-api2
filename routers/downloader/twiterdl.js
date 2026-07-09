@@ -106,7 +106,7 @@ export default {
       }).end(
         JSON.stringify({
           status: true,
-          creator: "Raihan Fadillah",
+          creator: "Mas Yuu",
           result,
         }),
       );
