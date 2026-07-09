@@ -2,7 +2,7 @@ const el = document.getElementById("decode");
 const loader = document.getElementById("loader");
 
 const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-const finalText = "RHNX-API";
+const finalText = "YUKI-API";
 
 let frame = 0;
 let queue = [];

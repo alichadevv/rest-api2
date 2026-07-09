@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const BASE_DOMAIN =
   globalThis.location?.hostname === "localhost"
     ? "http://localhost:3000"
-    : "https://api.rhnx.xyz"; // ganti aja
+    : "https://api-yuki.vercel.app"; // ganti aja
 
 
   const sound = {
