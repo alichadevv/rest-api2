@@ -32,7 +32,7 @@ export default {
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(
       JSON.stringify({
-        creator: "Raihan Fadillah",
+        creator: "Mas Yuu",
         status: true,
         user: user.username,
         data: {
