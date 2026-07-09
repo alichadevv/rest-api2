@@ -78,7 +78,7 @@ export default {
     return res.end(
       JSON.stringify({
         status: true,
-        creator: "Raihan Fadillah",
+        creator: "Mas Yuu",
         requester: req.user?.username || null,
         data: result,
       }),
