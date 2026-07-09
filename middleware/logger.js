@@ -148,7 +148,7 @@ export function requestLogger(req, res, start) {
     "\n" +
       chalk.gray("╭───────────────────────────────") +
       "\n" +
-      chalk.cyanBright.bold("  RHNX REQUEST LOGGER") +
+      chalk.cyanBright.bold("  YUKI REQUEST LOGGER") +
       "\n" +
       chalk.gray("├───────────────────────────────") +
       "\n" +

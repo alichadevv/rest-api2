@@ -9,7 +9,7 @@ function send(res, code, message) {
 
   res.end(
     JSON.stringify({
-      creator: "Raihan Fadillah",
+      creator: "Mas Yuu",
       status: false,
 
       info: {
