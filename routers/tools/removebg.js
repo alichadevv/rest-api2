@@ -163,7 +163,7 @@ export default {
             JSON.stringify(
               {
                 status: true,
-                creator: "Raihan Fadillah",
+                creator: "Mas Yuu",
                 result: {
                   url: upload.url,
                   expired: upload.expired || "1 menit",

@@ -88,7 +88,7 @@ export default {
         JSON.stringify(
           {
             status: true,
-            creator: "Raihan Fadillah",
+            creator: "Mas Yuu",
             user: req.user?.username || null,
             limit_left: req.user?.limit ?? null,
             data: {

@@ -96,7 +96,7 @@ export default {
             JSON.stringify(
               {
                 status: true,
-                creator:'Raihan Fadillah',
+                creator:'Mas Yuu',
                 mode,
                 result: data.result || null,
               },
